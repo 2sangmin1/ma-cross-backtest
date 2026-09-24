@@ -1,0 +1,14 @@
+# 환경변수 / API 키 (절대 커밋 금지)
+.env
+*.key
+secrets.*
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 데이터 캐시 (샘플 데이터는 예외로 유지)
+*.tmp
+.DS_Store
